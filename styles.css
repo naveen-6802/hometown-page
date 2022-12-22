@@ -1,0 +1,161 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    background: #ffe5;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#banner {
+    background: url("images/jaipur.jpg");
+    background-size: cover;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hdng {
+    padding: 5px 12px;
+    font-size: 20px;
+    background: #ff006e;
+    border-radius:10px;
+    color:white;
+}
+
+.slgn {
+    padding: 5px 10px;
+    width:400px;
+    font-size: 16px;
+    background: rgb(37,80,250);
+    border-radius: 10px;
+    color: white;
+    margin-top:0px;
+}
+
+#activities {
+    margin-top: 39px;
+}
+
+.actvt {
+    color: #ff006e;
+    font-size:16px;
+}
+
+#avcnt {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0 35px;
+}
+
+.avty {
+    padding: 0 33px;
+}
+
+.avty h3 {
+    font-size: 16px;
+    color: black;
+}
+
+.highlight {
+    padding: 0px;
+    background: yellow;
+    color: black;
+}
+
+.avty p {
+    color: rgb(37,80,250);
+    font-size: 14px;
+}
+
+#famous {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+    background: white;
+}
+
+li {
+    background: white;
+    border: 1px solid #ff006e;
+    padding: 10px;
+    width: 90%;
+    margin-top: 5px;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+li:hover {
+    background: #ff006e;
+    color: white;
+}
+
+li:hover .exploremore {
+    color: white;
+}
+
+.exploremore {
+    color: rgb(37,80,250);
+}
+
+#guide {
+    margin: 50px auto;
+    width: 400px;
+    background: #7f8ff4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 5px solid rgb(77,97,240);
+}
+
+.peson {
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+#gsd {
+    color: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    color: white;
+    font-size: 13px;
+}
+
+.para {
+    font-style: italic;
+}
